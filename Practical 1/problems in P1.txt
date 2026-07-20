@@ -1,0 +1,5 @@
+Practical 1.2
+
+problem: Repeated printing of the output
+solution: I took two more condition that is seen and count, if the seen==1 and 	  count>0 if these condition satisfy then only it prints it, these 	  solves my problem and prints it once only.
+
