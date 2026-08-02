@@ -29,7 +29,6 @@ int main()
         int seen = 0;
         int count = 0;
 
-        // Check if this ID has already appeared
         for(int j = 0; j < i; j++)
         {
             if(a[i] == a[j])
@@ -39,7 +38,6 @@ int main()
             }
         }
 
-        // Count duplicates after current position
         for(int j = i + 1; j < n; j++)
         {
             if(a[i] == a[j])
